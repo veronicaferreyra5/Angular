@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { EjemploPadreComponent } from './components/ejemplo-padre/ejemplo-padre.component';
 import { EjemploHijoComponent } from './components/ejemplo-hijo/ejemplo-hijo.component';
+import { CardComponent } from './components/card/card.component';
+import { CardWapperComponent } from './components/card-wapper/card-wapper.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     EjemploPadreComponent,
-    EjemploHijoComponent
+    EjemploHijoComponent,
+    CardComponent,
+    CardWapperComponent
   ],
   imports: [
     BrowserModule,

@@ -1,8 +1,16 @@
 <app-nav></app-nav>
 
+<app-card-wapper></app-card-wapper>
+
 <app-ejemplo-padre></app-ejemplo-padre>
 
 <span>{{ title | uppercase }} app is running!</span>
 <p>{{ edad }}</p>
 
 <img src="assets/images/sami.jpg" alt="gatita durmiendo">
+
+<ul>
+    <li *ngFor="let numero of numeros">
+        El numero es: {{ numero }}
+    </li>
+</ul>

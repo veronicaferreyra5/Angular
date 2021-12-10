@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-utn';
   edad = 45;
+  numeros = [45, 456, 344, 3222, 6789, 345];
 }
